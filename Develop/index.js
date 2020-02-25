@@ -129,7 +129,7 @@ async function init(){
                 type: "list",
                 message: `what the employee (${i})'s title?`,
                 name: "role",
-                choices: ["Engineer", "Intern", "Manager"]
+                choices: ["Engineer", "Intern"]
             }
         ]).then((data) =>{
             name = data.name;
